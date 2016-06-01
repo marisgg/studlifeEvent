@@ -40,7 +40,10 @@ public class Event extends Activity {
         setContentView(R.layout.activity_event);
 
         eventText = (EditText) findViewById(R.id.editTextEvent);
-
+        //not yet tested
+        eventText.setEnabled(false);
+        eventText.setFocusable(false);
+        //
         yes = (Button) findViewById(R.id.buttonyes);
         no = (Button) findViewById(R.id.buttonno);
 
